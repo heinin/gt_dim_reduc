@@ -1,7 +1,7 @@
-name: "gt_dim_reduc"
+name: gt_dim_reduc
 output_dir: ../docs
 navbar:
-  title: "gt_dim_reduc"
+  title: gt_dim_reduc
   left:
   - text: Home
     href: index.html
@@ -9,6 +9,10 @@ navbar:
     href: about.html
   - text: License
     href: license.html
+  right:
+  - icon: fab fa-github
+    text: Source code
+    href: https://github.com/heinin/gt_dim_reduc
 output:
   workflowr::wflow_html:
     toc: yes
